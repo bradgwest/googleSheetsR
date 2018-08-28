@@ -1,0 +1,18 @@
+Package: googleSheetsR
+Type: Package
+Title: Interface with Google Sheets with Shiny Compatibility
+Version: 0.1.0
+Authors@R: pserson("Brad", "West", email = "brad.g.west@gmail.com")
+Description: Interface with 'Google Sheets', see 
+    https://developers.google.com/sheets/api/
+    for more information about the Google Sheets API. Depends on 'googleAuthR'
+    Is based heavily on and draws great inspiration for Mark Edmondson's work
+    with the 'googleAuthRverse'. Developed for greater parity with the 
+    underlying sheets API and for R Shiny compatability.
+Depends: R (>= 3.5.1)
+Encoding: UTF-8
+License: MIT + file LICENSE
+LazyData: true
+Imports:
+    assertthat,
+    googleAuthR
