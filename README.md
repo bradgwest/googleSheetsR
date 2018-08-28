@@ -2,7 +2,7 @@
 
 ## Overview
 
-If you simply wish to interact with Google Sheets interactively, there are much better R packages to turn to, notably Jenny Bryan's `googlesheets` package. If, however, you wish to build multi-user Shiny applications, or have a closer parity between the R client and underlying Google Sheets API, this package provides that functionality via Mark Edmondson's `googleAuthR`.
+If you simply wish to interact with Google Sheets from the R console, there are much better R packages to turn to, notably Jenny Bryan's `googlesheets` package. If, however, you wish to build multi-user Shiny applications, or have a closer parity between the R client and underlying Google Sheets API, this package provides that functionality via Mark Edmondson's `googleAuthR`.
 
 ## Install
 
@@ -27,7 +27,6 @@ scopes <- c(
   "https://www.googleapis.com/auth/drive.readonly",
   "https://www.googleapis.com/auth/spreadsheets",
   "https://www.googleapis.com/auth/spreadsheets.readonly"
-  
 )
 options(googleAuthR.scopes.selected = scopes[1]))
 ```
@@ -38,4 +37,4 @@ options(googleAuthR.scopes.selected = scopes[1]))
 
 ## Thanks
 
-This package stands entirely on the shoulders of Mark Edmondson and his [googleAuthR](https://github.com/MarkEdmondson1234/googleAuthR) package. This package provides an easy way to build Google APIs, and provides support for multi-user shiny applications. Thanks to Mark and his collaborators. His `googleAuthRverse` is a tremendous contribution to the R and Google Cloud communities.
+This package stands entirely on the shoulders of Mark Edmondson and his [googleAuthR](https://github.com/MarkEdmondson1234/googleAuthR) package. `googleAuthR` provides an easy way to build Google APIs, and provides support for multi-user shiny applications. Thanks to Mark and his collaborators. His `googleAuthRverse` is a tremendous contribution to the R and Google Cloud communities.
