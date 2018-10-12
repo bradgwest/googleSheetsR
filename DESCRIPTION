@@ -2,7 +2,7 @@ Package: googleSheetsR
 Type: Package
 Title: Interface with Google Sheets with Shiny Compatibility
 Version: 0.1.0
-Authors@R: pserson("Brad", "West", email = "brad.g.west@gmail.com")
+Authors@R: person("Brad", "West", email = "brad.g.west@gmail.com", role = c("aut", "cre"))
 Description: Interface with 'Google Sheets', see 
     https://developers.google.com/sheets/api/
     for more information about the Google Sheets API. Depends on 'googleAuthR'
@@ -16,3 +16,4 @@ LazyData: true
 Imports:
     assertthat,
     googleAuthR
+RoxygenNote: 6.1.0
